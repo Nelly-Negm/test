@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
 
-function test() {
-  return(
-    
-  )
+import './App.css';
+import React from 'react';
+import Navbar from "./component/Navbar";
+
+function App() {
+    return ( 
+        <React.Fragment>
+        <Navbar/>
+        </React.Fragment>
+    );
   
 }
 
